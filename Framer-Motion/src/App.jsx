@@ -5,6 +5,7 @@ const App = () => {
   return (
     <div>
       <>
+        //! basic Structure
         {/* <motion.div
         initial={{ x: 300 }}
         animate={{ x: 1000, rotate: 360, scale: 2 }}
@@ -13,8 +14,8 @@ const App = () => {
       >Shivam Gulati</motion.div> */}
 
 
-
-
+      
+        //!Keyframes
         {/* <motion.div
         animate={{ x: [0,500,500,0,0], y:[0,0,300,300,0] , rotate:[0,360,0,360,0]  }}
         transition={{ duration: 3, delay: 1, repeat:Infinity , ease:"anticipate"}}  
@@ -28,7 +29,7 @@ const App = () => {
         className="box"
       ></motion.div>
 
-
+        //! On Image
         {/* <motion.img
           initial={{
             x:100,
@@ -38,7 +39,8 @@ const App = () => {
           transition={{ duration: 5, repeat: Infinity, ease: "anticipate" }}
           src={oggy}
         />
-
+        
+        //! Image with Paragraph
         {/* <motion.p className="oggy" animate={{x:1000}} transition={{duration:5, repeat:Infinity , ease:"anticipate"}}>"Main hu Oggy!!! BHeem ke diwane"</motion.p> */}
         {/* <motion.p
           className="oggy"
