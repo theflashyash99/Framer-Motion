@@ -10,7 +10,7 @@ html ,body  {
   height: 100%;
 }
 
-body{background-color: #111;}
+body{background-color: #111; display: flex; justify-content: center;}
 
 .box{
   height: 200px;
@@ -18,5 +18,19 @@ body{background-color: #111;}
   background-color: red;
   border: 3px solid white;
   margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
   
+}
+
+img{
+  height: 300px;
+  width: 300px;
+}
+
+.oggy{
+  font-size: 50px;
+  color: blue;
 }
