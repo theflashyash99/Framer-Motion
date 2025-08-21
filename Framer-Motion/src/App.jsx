@@ -13,32 +13,34 @@ const App = () => {
         className="box"
       >Shivam Gulati</motion.div> */}
 
-
-      
         {/* //!Keyframes */}
         {/* <motion.div
         animate={{ x: [0,500,500,0,0], y:[0,0,300,300,0] , rotate:[0,360,0,360,0]  }}
         transition={{ duration: 3, delay: 1, repeat:Infinity , ease:"anticipate"}}  
         className="box"
       >Shivam Gulati</motion.div> */}
-         
-         {/* //! whileHover
+
+        {/* //! whileHover
        <motion.div 
        whileHover={{background:"green", scale:2.3 , rotate:360}}
        transition={{duration:5 , repeat:Infinity}}
         className="box"
       ></motion.div> */}
 
-
-      {/* //!whileHover AND tap 
+        {/* //!whileHover AND tap 
        //! whileHover */}
-       <motion.div 
-       whileHover={{background:"green"}}
-       whileTap={{scale:2.5}}
-       
-       
-        className="box"
-      ></motion.div>
+        {/* <motion.div
+          whileHover={{ background: "green" }}
+          whileTap={{ scale: 2.5 }}
+          className="box"
+        ></motion.div> */}
+
+        {/* //!Drag on framer-Motion */}
+
+        <motion.div
+         drag
+          className="box"
+        ></motion.div> 
 
         {/* //! On Image */}
         {/* <motion.img
@@ -59,7 +61,7 @@ const App = () => {
           transition={{ duration: 5, repeat: Infinity, ease: "anticipate" }}
         >
           "Shivam CHinar"
-        </motion.p> */} 
+        </motion.p> */}
       </>
     </div>
   );
