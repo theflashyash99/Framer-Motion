@@ -10,7 +10,7 @@ html ,body  {
   height: 100%;
 }
 
-body{background-color: #111; display: flex; justify-content: center;}
+body{background-color: #111;}
 
 .box{
   height: 200px;
@@ -18,10 +18,7 @@ body{background-color: #111; display: flex; justify-content: center;}
   background-color: red;
   border: 3px solid white;
   margin-top: 200px;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
+
   
 }
 

@@ -38,9 +38,12 @@ const App = () => {
         {/* //!Drag on framer-Motion */}
 
         <motion.div
-         drag
+          drag
+          whileDrag={{ scale: 0.5 }}
+          dragConstraints={{ top: 0, left: 0, right: 1000, bottom: 500 }} // this will let you set limit on the drag.
+          dragDirectionLock="true" // this let you go in one direction in one click drah either in X or Y axis.
           className="box"
-        ></motion.div> 
+        ></motion.div>
 
         {/* //! On Image */}
         {/* <motion.img
