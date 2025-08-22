@@ -37,13 +37,13 @@ const App = () => {
 
         {/* //!Drag on framer-Motion */}
 
-        <motion.div
+        {/* <motion.div
           drag
           whileDrag={{ scale: 0.5 }}
           dragConstraints={{ top: 0, left: 0, right: 1000, bottom: 500 }} // this will let you set limit on the drag.
           dragDirectionLock="true" // this let you go in one direction in one click drah either in X or Y axis.
           className="box"
-        ></motion.div>
+        ></motion.div> */}
 
         {/* //! On Image */}
         {/* <motion.img
@@ -65,6 +65,68 @@ const App = () => {
         >
           "Shivam CHinar"
         </motion.p> */}
+
+
+
+
+
+        {/* //! Scroll Animation */}
+
+        <div className="p-20 text-white text-center font-mono">
+
+        <h1 className="text-red-500 text-7xl font-bold  mb-8"> Spider-Man Scroll Motion!!!</h1>
+        <br></br><br></br><br></br>
+        <div className="spiderman text-2xl">
+        <p>  Spider-Man, one of the most endearing superheroes ever, is the alter ego of Peter Benjamin Parker. Created by Stan Lee and Steve Ditko, he made his first appearance in Amazing Fantasy #15 (August 1962) 
+Wikipedia
+Encyclopedia Britannica
+. A brilliant but modest teenager from Queens, Peter gains his extraordinary powers after being bitten by a radioactive spider—bestowing upon him superhuman strength, agility, speed, reflexes, and the ability to cling to surfaces as well as a precognitive "spider-sense" that warns him of danger 
+Wikipedia
+epicroadtrips.us
+. </p>
+<br>
+
+</br>
+
+<p>In his early misuse of these gifts, Peter seeks fame and fortune, only to face tragedy when a burglar he let escape ends up murdering his Uncle Ben. Consumed by guilt, Peter embraces his uncle’s famous lesson: with great power comes great responsibility, and commits himself to fighting crime as Spider-Man 
+Britannica Kids
+Wikipedia
+. Always dealing with everyday struggles like school, work, and loved ones, including Aunt May and his often-complicated love interests like Gwen Stacy and Mary Jane Watson, his life resonates deeply with many fans 
+Britannica Kids
+Marvel
+.
+</p>
+<br></br>
+<br></br>
+<br></br>
+<p>Spider-Man’s iconic red-and-blue costume, web-shooters, and witty personality blend heroism and humanity. His ongoing battle between personal hardship and heroic duties continues to captivate and inspire readers across generations. </p>
+
+ <p>  Spider-Man, one of the most endearing superheroes ever, is the alter ego of Peter Benjamin Parker. Created by Stan Lee and Steve Ditko, he made his first appearance in Amazing Fantasy #15 (August 1962) 
+Wikipedia
+Encyclopedia Britannica
+. A brilliant but modest teenager from Queens, Peter gains his extraordinary powers after being bitten by a radioactive spider—bestowing upon him superhuman strength, agility, speed, reflexes, and the ability to cling to surfaces as well as a precognitive "spider-sense" that warns him of danger 
+Wikipedia
+epicroadtrips.us
+. </p>
+<br>
+
+</br>
+
+<p>In his early misuse of these gifts, Peter seeks fame and fortune, only to face tragedy when a burglar he let escape ends up murdering his Uncle Ben. Consumed by guilt, Peter embraces his uncle’s famous lesson: with great power comes great responsibility, and commits himself to fighting crime as Spider-Man 
+Britannica Kids
+Wikipedia
+. Always dealing with everyday struggles like school, work, and loved ones, including Aunt May and his often-complicated love interests like Gwen Stacy and Mary Jane Watson, his life resonates deeply with many fans 
+Britannica Kids
+Marvel
+.
+</p>
+<br></br>
+<br></br>
+<br></br>
+<p>Spider-Man’s iconic red-and-blue costume, web-shooters, and witty personality blend heroism and humanity. His ongoing battle between personal hardship and heroic duties continues to captivate and inspire readers across generations. </p>
+</div>
+
+</div>
       </>
     </div>
   );
